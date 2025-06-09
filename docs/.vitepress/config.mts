@@ -37,7 +37,7 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Star-Moon-Night/sakura.github.io' }
     ],
     footer:{
       copyright: 'Copyright © 2025 樱花庄 All rights reserved.<br>V1.1.0',
