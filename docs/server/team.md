@@ -14,6 +14,13 @@ const coreMembers = [
     {
     avatar:'../resource/avatar/1749393192-Kimimustbe29.png',
     name: 'Kimimustbe29',
+    title: '会长' ,
+    desc: '常年不在线的杂鱼会长……<br>欢迎来我的个人网站看看<br>↓' ,
+ links: [
+    { icon: 'github', link: 'https://github.com/Kimimaybe29' },
+    { icon: 'unkown', link: 'https://kimimaybe29.top'},
+    { icon: 'bilibili', link: 'https://space.bilibili.com/504333259' },
+    ]
     },
     {
     avatar:'../resource/avatar/1749393189-dajumps.png',
