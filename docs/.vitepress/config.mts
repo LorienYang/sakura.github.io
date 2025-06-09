@@ -11,7 +11,6 @@ export default defineConfig({
       { text: '主页', link: '/' },
       { text: '了解我们', link: '/server/introduction' },
       { text: '更多信息', link: '/info/Thx' },
-      { text: '开发文档', link: '/dev/markdown-examples' },
     ],
     sidebar: [
       {
@@ -23,23 +22,23 @@ export default defineConfig({
         ]
       },
       {
+        text: '拾色冒险IF',
+        items:[
+          {text: '设定及世界观', link: '/server/CosPlay/Color-Picking-Adventure-IF-Worldview'},
+        ]
+      },
+      {
         text: '更多信息',
         items:[
             {text: '特别鸣谢', link: '/info/Thx'},
         ]
       },
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/dev/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/dev/api-examples' }
-        ]
-      }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Star-Moon-Night/sakura.github.io' }
     ],
     footer:{
+      message: 'Powered by <a href="https://github.com/vuejs/vitepress">Vitepress</a>.',
       copyright: 'Copyright © 2025 樱花庄 All rights reserved.<br>V1.1.0',
     },
 

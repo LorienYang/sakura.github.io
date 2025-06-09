@@ -11,11 +11,8 @@ hero:
       text: 组织介绍
       link: /server/introduction
     - theme: alt
-      text: 组织政策
-      link: /server/rule
-    - theme: alt
-      text: 组织成员
-      link: /server/team
+      text: 拾色冒险IF
+      link: /server/CosPlay/Color-Picking-Adventure-IF-Worldview
 features:
   - icon: 🤔
     title: 我们是谁？
