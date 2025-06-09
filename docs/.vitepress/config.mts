@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-
+  base:'/',
   lang: 'zh-cn',
   head: [['link', { rel: 'icon', href: '../resource/img/sakura.png' }]],
   title: "樱花庄",
