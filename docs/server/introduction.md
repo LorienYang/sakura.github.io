@@ -6,11 +6,11 @@
 
 ### 常任理事会成员：
 + Kimimustbe29
-+ SakuraGaChiru
++ dajumps
 
 ### 非常任理事会成员：
 + NU_LI_
-+ dajumps
++ SakuraGaChiru
 + N0HAb1tor
 
 ### 最初成员总览：
