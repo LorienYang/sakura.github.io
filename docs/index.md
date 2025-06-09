@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "樱花庄"
   text: "欢迎来到樱花庄档案库"
-  tagline: 樱花庄官方档案库
+  tagline: 这里会记录樱花庄的大部分文件
   actions:
     - theme: brand
       text: 组织介绍
