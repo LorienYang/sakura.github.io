@@ -1,7 +1,6 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base:'/sakura.github.io/',
   lang: 'zh-cn',
   head: [['link', { rel: 'icon', href: '../resource/img/sakura.png' }]],
   title: "樱花庄",
