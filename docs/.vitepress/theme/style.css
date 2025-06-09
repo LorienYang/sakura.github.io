@@ -1,7 +1,3 @@
-@font-face {
-  font-family: 'MiSans';
-  src: url('https://font.sec.miui.com/font/css?family=MiSans:400,700:MiSans') format('truetype');
-}
 /**
  * Colors: Solid
  * -------------------------------------------------------------------------- */
@@ -53,7 +49,7 @@
   --vp-c-gray-3: #ebebef;
   --vp-c-gray-soft: rgba(142, 150, 170, 0.14);
 
-  --vp-c-indigo-1: #dcb2f1;
+  --vp-c-indigo-1: #deabff;
   --vp-c-indigo-2: #e2baf4;
   --vp-c-indigo-3: #dcb2f1;
   --vp-c-indigo-soft: rgba(100, 108, 255, 0.14);
@@ -88,7 +84,7 @@
   --vp-c-gray-soft: rgba(101, 117, 133, 0.16);
 
   --vp-c-indigo-1: #dcb2f1;
-  --vp-c-indigo-2: #b697c3;
+  --vp-c-indigo-2: #e2baf4;
   --vp-c-indigo-3: #dcb2f1;
   --vp-c-indigo-soft: rgba(100, 108, 255, 0.14);
 
@@ -266,17 +262,17 @@
 
 :root {
   --vp-font-family-base:
-          'MiSans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+          'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
           'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   --vp-font-family-mono:
-          ui-monospace, 'MiSans','Menlo', 'Monaco', 'Consolas', 'Liberation Mono',
+          ui-monospace, 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono',
           'Courier New', monospace;
   font-optical-sizing: auto;
 }
 
 :root:where(:lang(zh)) {
   --vp-font-family-base:
-          'MiSans','Punctuation SC', 'Inter', ui-sans-serif, system-ui, sans-serif,
+          'Punctuation SC', 'Inter', ui-sans-serif, system-ui, sans-serif,
           'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
