@@ -11,7 +11,7 @@ hero:
       text: 组织介绍
       link: /server/introduction
     - theme: alt
-      text: 拾色冒险IF
+      text: 拾色世界:色彩的残党
       link: /server/CosPlay/Color-Picking-Adventure-IF-Worldview
 features:
   - icon: 🤔

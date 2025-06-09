@@ -19,7 +19,7 @@ export default defineConfig({
       },
       { text: '更多信息',
       items:[
-      {text:'特别鸣谢',link: '/info/Thx'}
+        {text:'特别鸣谢',link: '/info/Thx'}
       ]
       },
     ],
@@ -35,10 +35,11 @@ export default defineConfig({
         ]
       },
       {
-        text: '拾色冒险IF',
+        text: '拾色世界:色彩的残党',
         collapsed:false,
         items:[
           {text: '设定及世界观', link: '/server/CosPlay/Color-Picking-Adventure-IF-Worldview'},
+          {text: '序章', link: '/server/CosPlay/docs/Color-Picking-Adventure-IF-Preface'},
         ]
       },
       {

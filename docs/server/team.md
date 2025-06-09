@@ -20,6 +20,7 @@ const coreMembers = [
     { icon: 'github', link: 'https://github.com/Kimimaybe29' },
     { icon: 'unkown', link: 'https://kimimaybe29.top'},
     { icon: 'bilibili', link: 'https://space.bilibili.com/504333259' },
+
     ]
     },
     {
@@ -32,8 +33,10 @@ const coreMembers2 = [
     avatar:'../resource/avatar/1749393195-SakuraGaChiru.png',
     name: 'SakuraGChiru',
     desc: '网站技术',
-links: [
-    { icon: 'github', link: 'https://github.com/star-moon-night' },
+    links: [
+        { icon: 'github', link: 'https://github.com/star-moon-night' },
+        { icon: 'wordpress', link: 'https://sakuraonline.cn' },
+        { icon: 'bilibili', link: 'https://space.bilibili.com/473089208' },
     ]
     },
     {
