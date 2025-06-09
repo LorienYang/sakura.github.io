@@ -31,7 +31,7 @@ const coreMembers2 = [
     {
     avatar:'../resource/avatar/1749393195-SakuraGaChiru.png',
     name: 'SakuraGChiru',
-    desc: '网站提供者',
+    desc: '网站技术',
 links: [
     { icon: 'github', link: 'https://github.com/star-moon-night' },
     ]

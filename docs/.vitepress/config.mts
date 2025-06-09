@@ -7,11 +7,23 @@ export default defineConfig({
   description: "欢迎来到樱花庄档案库",
   cleanUrls: true,
   themeConfig: {
+
     nav: [
       { text: '主页', link: '/' },
-      { text: '了解我们', link: '/server/introduction' },
-      { text: '更多信息', link: '/info/Thx' },
+      { text: '了解我们',
+      items:[
+        {text:'组织介绍',link: '/server/introduction'},
+        {text:'组织政策',link: '/server/rule'},
+        {text:'组织成员',link: '/server/team'},
+      ]
+      },
+      { text: '更多信息',
+      items:[
+      {text:'特别鸣谢',link: '/info/Thx'}
+      ]
+      },
     ],
+
     sidebar: [
       {
         text: '了解我们',
@@ -56,7 +68,7 @@ export default defineConfig({
     notFound: {
       title: '页面未找到',
       quote:
-          '但如果你不改变方向，并且继续寻找，你可能最终会到达你所前往的地方。',
+          '当你迷失方向的时候不妨回头看看。',
       linkLabel: '前往首页',
       linkText: '带我回首页'
     },
