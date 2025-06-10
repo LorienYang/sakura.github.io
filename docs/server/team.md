@@ -16,7 +16,7 @@ const coreMembers = [
     name: 'Kimimustbe29',
     title: '会长' ,
     desc: '常年不在线的杂鱼会长……<br>欢迎来我的个人网站看看<br>↓' ,
- links: [
+    links: [
     { icon: 'github', link: 'https://github.com/Kimimaybe29' },
     { icon: 'unkown', link: 'https://kimimaybe29.top'},
     { icon: 'bilibili', link: 'https://space.bilibili.com/504333259' },
@@ -28,7 +28,7 @@ const coreMembers = [
     name: 'dajumps',
     title: '幕后工程师' ,
     desc: '剧本制作，建筑制作，有问题可找我，有技术可教我' ,
-  links: [
+    links: [
     { icon: 'bilibili', link: 'https://space.bilibili.com/381729071' },
 
     ]

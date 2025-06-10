@@ -16,6 +16,7 @@
     "vitepress": "^1.6.3"
   },
   "dependencies": {
+    "unplugin-vue-components": "^28.7.0",
     "vitepress-markdown-timeline": "^1.2.2"
   }
 }

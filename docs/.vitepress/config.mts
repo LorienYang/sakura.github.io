@@ -2,20 +2,17 @@ import { defineConfig } from 'vitepress'
 import timeline from "vitepress-markdown-timeline";
 
 export default defineConfig({
-
-  markdown:{
-    config:(md) => {
-      md.use(timeline)
-    }
-  },
-
   lang: 'zh-Hans',
   head: [['link', { rel: 'icon', href: '../resource/img/sakura.png' }]],
   title: "樱花庄",
   description: "欢迎来到樱花庄档案库",
   cleanUrls: true,
+  markdown:{
+    config:(md) => {
+      md.use(timeline)
+    }
+  },
   themeConfig: {
-
     nav: [
       { text: '主页', link: '/' },
       { text: '了解我们',
@@ -31,7 +28,6 @@ export default defineConfig({
       ]
       },
     ],
-
     sidebar: [
       {
         text: '了解我们',
@@ -67,7 +63,6 @@ export default defineConfig({
       message: 'Powered by <a href="https://github.com/vuejs/vitepress">Vitepress</a>.',
       copyright: 'Copyright © 2025 樱花庄 All rights reserved.<br>V1.1.0',
     },
-
     docFooter: {
       prev: '上一页',
       next: '下一页'
@@ -95,5 +90,5 @@ export default defineConfig({
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式',
     skipToContentLabel: '跳转到内容'
-  }
+  },
 })
