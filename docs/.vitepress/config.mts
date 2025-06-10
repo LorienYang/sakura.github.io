@@ -1,6 +1,14 @@
 import { defineConfig } from 'vitepress'
+import timeline from "vitepress-markdown-timeline";
 
 export default defineConfig({
+
+  markdown:{
+    config:(md) => {
+      md.use(timeline)
+    }
+  },
+
   lang: 'zh-Hans',
   head: [['link', { rel: 'icon', href: '../resource/img/sakura.png' }]],
   title: "樱花庄",
@@ -39,6 +47,7 @@ export default defineConfig({
         collapsed:false,
         items:[
           {text: '设定及世界观', link: '/server/CosPlay/Color-Picking-Adventure-IF-Worldview'},
+          {text: '人物设定', link: '/server/CosPlay/Coser'},
           {text: '序章', link: '/server/CosPlay/docs/Color-Picking-Adventure-IF-Preface'},
         ]
       },
