@@ -66,7 +66,11 @@ const teamMembers = [
     },
     {
     avatar:'../resource/avatar/1749393193-Lemeng01.png',
-    name: 'Lemeng01',
+    name: 'Lemeng01',   
+    desc: '上班族偶尔在线' ,
+    links: [
+    { icon: 'bilibili', link: '[https://space.bilibili.com/244858902' },
+    ]
     },
     {
     avatar:'../resource/avatar/1749393192-lanxiao1.png',
