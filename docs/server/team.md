@@ -17,10 +17,9 @@ const coreMembers = [
     title: '会长' ,
     desc: '常年不在线的杂鱼会长……<br>欢迎来我的个人网站看看<br>↓' ,
     links: [
-    { icon: 'github', link: 'https://github.com/Kimimaybe29' },
-    { icon: 'unkown', link: 'https://kimimaybe29.top'},
-    { icon: 'bilibili', link: 'https://space.bilibili.com/504333259' },
-
+        { icon: 'github', link: 'https://github.com/Kimimaybe29' },
+        { icon: {svg: ''}, link: 'https://kimimaybe29.top'},
+        { icon: 'bilibili', link: 'https://space.bilibili.com/504333259' },
     ]
     },
     {
@@ -29,11 +28,10 @@ const coreMembers = [
     title: '幕后工程师' ,
     desc: '剧本制作，建筑制作，有问题可找我，有技术可教我' ,
     links: [
-    { icon: 'bilibili', link: 'https://space.bilibili.com/381729071' },
-
+        { icon: 'bilibili', link: 'https://space.bilibili.com/381729071' },
     ]
     },
-];
+    ];
 const coreMembers2 = [
     {
     avatar:'../resource/avatar/1749393195-SakuraGaChiru.png',
@@ -69,7 +67,7 @@ const teamMembers = [
     name: 'Lemeng01',   
     desc: '上班族偶尔在线' ,
     links: [
-    { icon: 'bilibili', link: '[https://space.bilibili.com/244858902' },
+        { icon: 'bilibili', link: '[https://space.bilibili.com/244858902' },
     ]
     },
     {

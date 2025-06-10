@@ -3,7 +3,7 @@ import timeline from "vitepress-markdown-timeline";
 
 export default defineConfig({
   lang: 'zh-Hans',
-  head: [['link', { rel: 'icon', href: '../resource/img/sakura.png' }]],
+  head: [['link', { rel: 'icon', href: '/logo.svg' }]],
   title: "樱花庄",
   description: "欢迎来到樱花庄档案库",
   cleanUrls: true,
@@ -39,11 +39,11 @@ export default defineConfig({
         ]
       },
       {
-        text: '拾色世界:色彩的残党',
+        text: '拾色世界：色彩的残党',
         collapsed:false,
         items:[
-          {text: '设定及世界观', link: '/server/CosPlay/Color-Picking-Adventure-IF-Worldview'},
-          {text: '人物设定', link: '/server/CosPlay/Coser'},
+          {text: '基础设定及世界观', link: '/server/CosPlay/docs/Color-Picking-Adventure-IF-Worldview'},
+          {text: '人物设定', link: '/server/CosPlay/docs/OC-Or-Coser'},
           {text: '序章', link: '/server/CosPlay/docs/Color-Picking-Adventure-IF-Preface'},
         ]
       },
@@ -58,7 +58,7 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Star-Moon-Night/sakura.github.io' }
     ],
-    logo:'../resource/img/sakura.png',
+    logo:'/logo.svg',
     footer:{
       message: 'Powered by <a href="https://github.com/vuejs/vitepress">Vitepress</a>.',
       copyright: 'Copyright © 2025 樱花庄 All rights reserved.<br>V1.1.0',
