@@ -26,6 +26,12 @@ const coreMembers = [
     {
     avatar:'../resource/avatar/1749393189-dajumps.png',
     name: 'dajumps',
+    title: '幕后工程师' ,
+    desc: '剧本制作，建筑制作，有问题可找我，有技术可教我' ,
+  links: [
+    { icon: 'bilibili', link: 'https://space.bilibili.com/381729071' },
+
+    ]
     },
 ];
 const coreMembers2 = [
