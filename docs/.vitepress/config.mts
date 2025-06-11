@@ -7,6 +7,10 @@ export default defineConfig({
   title: "樱花庄",
   description: "欢迎来到樱花庄档案库",
   cleanUrls: true,
+  sitemap: {
+    hostname: 'https://www.sakura.fun',
+    lastmodDateOnly: false
+  },
   markdown:{
     config:(md) => {
       md.use(timeline)
