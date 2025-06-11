@@ -3,22 +3,20 @@
 layout: home
 
 hero:
-  name: 樱花庄
-  text: 文言页面正在重写 请稍后
-  tagline: 这里会记录樱花庄的大部分文件
+  name: 櫻花莊
+  text: 文言頁面重構中，尚需待時
+  tagline: 此處將記錄櫻花莊之多數文牘
   image:
     src: ../logo.svg
     all: Sakura
   actions:
     - theme: brand
-      text: 组织介绍
+      text: 組織簡介
       link: /server/introduction
     - theme: alt
-      text: 拾色世界:色彩的残党
+      text: 拾色世界：餘彩之徒
       link: /server/CosPlay/docs/Color-Picking-Adventure-IF-Worldview
 features:
-  - icon: 🤔
-    title: 我们是谁？
-    details: "我们是<a href='https://eggs.gold/mc' target='_blank' rel='noopener noreferrer'>GoldenEggs ServerGroup</a></a>中的一个组织。"
-     
-
+    - icon: 🤔
+      title: 吾等為誰？
+      details: "吾等乃 <a href='https://eggs.gold/mc' target='_blank' rel='noopener noreferrer'>GoldenEggs 伺服組織</a> 中之一隅。"
