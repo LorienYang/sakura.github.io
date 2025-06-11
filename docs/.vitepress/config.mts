@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import timeline from "vitepress-markdown-timeline";
 
 export default defineConfig({
+  lastUpdated: true,
   lang: 'zh-Hans',
   head: [['link', { rel: 'icon', href: '/logo.svg' }]],
   title: "樱花庄",
