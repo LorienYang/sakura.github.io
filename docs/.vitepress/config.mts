@@ -9,7 +9,7 @@ export default defineConfig({
   cleanUrls: true,
   sitemap: {
     hostname: 'https://www.sakura.fun',
-    lastUpdated: true,
+    lastmodDateOnly: false
   },
   markdown:{
     config:(md) => {
