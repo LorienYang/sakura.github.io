@@ -9,7 +9,7 @@ export default defineConfig({
   description: "欢迎来到樱花庄档案库",
   cleanUrls: true,
   sitemap: {
-      hostname: 'https://vitepress.dev',
+      hostname: 'https://sakura.fun',
       transformItems(items) {
         return items.filter((item) => !item.url.includes('migration'))
       }
