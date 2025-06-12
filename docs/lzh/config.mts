@@ -50,7 +50,7 @@ export default {
         socialLinks: [
             { icon: 'github', link: 'https://github.com/Star-Moon-Night/sakura.github.io' }
         ],
-        logo: '/logo.svg',
+        logo: '/logo-mini.svg',
         footer: {
             message: 'Powered by <a href="https://github.com/vuejs/vitepress">VitePress</a>.',
             copyright: 'Copyright © 2025 樱花庄 All rights reserved.<br>V1.1.0'

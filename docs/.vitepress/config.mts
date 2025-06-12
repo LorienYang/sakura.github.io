@@ -1,6 +1,7 @@
 // .vitepress/config.mts
 import { defineConfig } from 'vitepress'
 import timeline from 'vitepress-markdown-timeline'
+import UnoCSS from 'unocss/vite'
 
 export default defineConfig(async () => {
   const zh = await import('../zh/config.mts')
@@ -13,7 +14,7 @@ export default defineConfig(async () => {
     title: '樱花庄',
     description: '欢迎来到樱花庄档案库',
     cleanUrls: true,
-    head: [['link', { rel: 'icon', href: '/logo.svg' }]],
+    head: [['link', { rel: 'icon', href: '/logo-mini.svg' }]],
     markdown: {
       config: (md) => {
         md.use(timeline)
@@ -29,8 +30,7 @@ export default defineConfig(async () => {
               lastmod: item.lastUpdated || new Date().toISOString(),
             }))
       }
-    }
-    ,
+    },
     locales: {
       root: {
         label: '简体中文',
@@ -51,5 +51,8 @@ export default defineConfig(async () => {
     rewrites: {
       'zh/:rest*': ':rest*'
     },
+    vite: {
+      plugins: [UnoCSS()]
+    }
   }
 })

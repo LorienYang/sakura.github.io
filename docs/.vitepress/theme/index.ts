@@ -2,6 +2,7 @@
 import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+import 'uno.css'
 import './style.css'
 import "vitepress-markdown-timeline/dist/theme/index.css";
 import CopyRight from './components/CopyRight.vue';
