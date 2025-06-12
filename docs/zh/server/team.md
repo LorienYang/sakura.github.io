@@ -34,7 +34,7 @@ const coreMembers = [
     ];
 const coreMembers2 = [
     {
-    avatar:'../resource/avatar/1749393195-SakuraGaChiru.png',
+    avatar:'https://avatars.githubusercontent.com/u/80152431?v=4',
     name: 'SakuraGChiru',
     desc: '网站技术',
     links: [
