@@ -14,6 +14,9 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@iconify-json/carbon": "^1.2.9",
+    "@iconify/json": "^2.2.348",
+    "@unocss/preset-icons": "^66.2.0",
     "unocss": "^66.2.0",
     "vitepress": "^1.6.3"
   },

@@ -2,6 +2,7 @@
 import { defineConfig } from 'vitepress'
 import timeline from 'vitepress-markdown-timeline'
 import UnoCSS from 'unocss/vite'
+import { presetIcons } from '@unocss/preset-icons'
 
 export default defineConfig(async () => {
   const zh = await import('../zh/config.mts')
@@ -52,7 +53,13 @@ export default defineConfig(async () => {
       'zh/:rest*': ':rest*'
     },
     vite: {
-      plugins: [UnoCSS()]
+      plugins: [UnoCSS({
+            presets: [
+              presetIcons(), // 启用图标预设
+            ],
+          }
+
+      )]
     }
   }
 })
