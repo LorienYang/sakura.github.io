@@ -36,7 +36,16 @@ export default {
                 items: [
                     { text: '基础设定及世界观', link: '/server/CosPlay/docs/Color-Picking-Adventure-IF-Worldview' },
                     { text: '人物设定', link: '/server/CosPlay/docs/OC-Or-Coser' },
-                    { text: '序章', link: '/server/CosPlay/docs/Color-Picking-Adventure-IF-Preface' }
+                    { text:'剧情',
+                    items: [
+                        { text: '序章', link: '/server/CosPlay/docs/Color-Picking-Adventure-IF-Preface' }
+                    ]
+                    },
+                    { text:'其他资料',
+                        items:[
+                            {text: '实验记录 1',link: '/server/CosPlay/docs/other/ExperimentLog-One'}
+                        ]
+                    }
                 ]
             },
             {
@@ -53,7 +62,7 @@ export default {
         logo: '/logo-mini.svg',
         footer: {
             message: 'Powered by <a href="https://github.com/vuejs/vitepress">VitePress</a>.',
-            copyright: 'Copyright © 2025 樱花庄 All rights reserved.<br>V1.1.0'
+            copyright: 'Copyright © 2025 樱花庄 All rights reserved.<br>V1.3.0'
         },
         docFooter: {
             prev: '上一页',
