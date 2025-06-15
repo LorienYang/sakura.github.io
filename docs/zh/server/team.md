@@ -18,7 +18,7 @@ const coreMembers = [
     desc: '常年不在线的杂鱼会长……<br>欢迎来我的个人网站看看<br>↓' ,
     links: [
         { icon: 'github', link: 'https://github.com/Kimimaybe29' },
-        { icon: 'halo', link: 'https://kimimaybe29.top'},
+        { icon: 'wordpress', link: 'https://kimimaybe29.top'},
         { icon: 'bilibili', link: 'https://space.bilibili.com/504333259' },
     ]
     },
