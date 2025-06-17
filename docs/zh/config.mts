@@ -45,6 +45,12 @@ export default {
                         items:[
                             {text: '实验记录 1',link: '/server/CosPlay/docs/other/ExperimentLog-One'}
                         ]
+                    },
+                    { text:'野史',
+                        items:[
+                            {text: '野史 1',link: '/server/CosPlay/docs/UnofficialHistory/UnofficialHistory-One'}
+                        ]
+
                     }
                 ]
             },
