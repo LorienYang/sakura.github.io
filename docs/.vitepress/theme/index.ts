@@ -12,6 +12,7 @@ import 'virtual:uno.css'
 import RainbowAnimationSwitcher from "./components/RainbowAnimationSwitcher.vue";
 import CopyRight from "./components/CopyRight.vue";
 import NonCopyRight from "./components/NonCopyRight.vue";
+import AuthorInfo from './components/AuthorInfo.vue'
 //config
 export default {
   extends: DefaultTheme,
@@ -23,6 +24,7 @@ export default {
     app.component('RainbowAnimationSwitcher', RainbowAnimationSwitcher)
     app.component('CopyRight', CopyRight)
     app.component('NonCopyRight', NonCopyRight)
+    app.component('AuthorInfo', AuthorInfo)
     // 彩虹背景动画样式
     if (typeof window === 'undefined')
       return
