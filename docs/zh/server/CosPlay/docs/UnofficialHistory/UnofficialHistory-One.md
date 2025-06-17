@@ -15,3 +15,4 @@ import { useData } from 'vitepress';
 const { frontmatter } = useData()
 </script>
 <AuthorInfo :name="frontmatter.author" />
+<CopyRight />
