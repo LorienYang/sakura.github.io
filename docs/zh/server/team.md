@@ -39,7 +39,7 @@ const coreMembers2 = [
     desc: '网站技术',
     links: [
         { icon: 'github', link: 'https://github.com/star-moon-night' },
-        { icon: 'wordpress', link: 'https://sakuraonline.cn' },
+        { icon: 'vitepress', link: 'https://sakuraonline.cn' },
         { icon: 'bilibili', link: 'https://space.bilibili.com/473089208' },
     ]
     },
