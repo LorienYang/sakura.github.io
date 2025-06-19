@@ -19,6 +19,7 @@ export default defineConfig(async () => {
     title: '樱花庄',
     description: '欢迎来到樱花庄档案库',
     cleanUrls: true,
+    outline:[1,2,3,4],
     head: [
       ['link', { rel: 'icon', href: '/logo-mini.svg' }],
       // Google Analytics 4 (GA4) 代码
