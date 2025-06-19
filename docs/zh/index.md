@@ -22,5 +22,5 @@ features:
     details: "我们是GoldenEggs ServerGroup中的一个组织。"
     link: https://eggs.gold/mc
     linkText: 了解一下
-     
+---
 

@@ -1,3 +1,8 @@
+---
+layout: doc
+outline: deep
+---
+
 # 《序》
 ::: warning 警告
 **此为拾色冒险的IF线，与主线无直接关系**

@@ -1,5 +1,7 @@
 ---
 author: SakuraGaChiru
+layout: doc
+outline: deep
 ---
 
 # 拾色世界野史
