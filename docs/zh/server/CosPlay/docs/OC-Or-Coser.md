@@ -1,6 +1,6 @@
 ---
 layout: doc
-outline: deep
+outline: [2,3]
 ---
 
 

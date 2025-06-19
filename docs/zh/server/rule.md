@@ -1,3 +1,7 @@
+---
+layout: doc
+outline: [2, 3]
+---
 # 樱花庄 政策介绍（正在重新编写中）
 #### 在你阅读此文档之前请先阅读[《金蛋生存服用户指南》](https://page.eggs.gold/docs/mcs/Survive/lis)，以下称为《生存服总则》
 ## 组织政策
