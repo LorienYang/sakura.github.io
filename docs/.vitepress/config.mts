@@ -9,13 +9,27 @@ export default defineConfig(async () => {
   const mars = await import('../mars/config.mts')
   const lzh = await import('../lzh/config.mts')
 
+  //引入谷歌分析GID
+  const GA_MEASUREMENT_ID = 'G-KK8QSKCV0Q';
+
+  //自定义配置
   return {
     lastUpdated: true,
     lang: 'zh-Hans',
     title: '樱花庄',
     description: '欢迎来到樱花庄档案库',
     cleanUrls: true,
-    head: [['link', { rel: 'icon', href: '/logo-mini.svg' }]],
+    head: [
+      ['link', { rel: 'icon', href: '/logo-mini.svg' }],
+      // Google Analytics 4 (GA4) 代码
+      ['script', { async: true, src: `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}` }],
+      ['script', {}, `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '${GA_MEASUREMENT_ID}');
+      `]
+    ],
     markdown: {
       config: (md) => {
         md.use(timeline)
@@ -58,7 +72,6 @@ export default defineConfig(async () => {
               presetIcons(), // 启用图标预设
             ],
           }
-
       )]
     }
   }
