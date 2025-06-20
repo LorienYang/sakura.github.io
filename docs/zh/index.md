@@ -17,7 +17,8 @@ hero:
       text: 拾色世界:色彩的残党
       link: /server/CosPlay/docs/Color-Picking-Adventure-IF-Worldview
 features:
-  - icon: <i class="i-mdi:egg"></i>
+  - icon: 
+      src: 'https://eggs.gold/wp-content/uploads/2024/12/cropped-%E7%94%BB%E6%9D%BF-1-7.png'
     title: 我们是谁？
     details: "我们是GoldenEggs ServerGroup中的一个组织。"
     link: https://eggs.gold/mc
