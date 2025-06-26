@@ -91,6 +91,14 @@ const teamMembers = [
     avatar:'../resource/avatar/1749393190-Exploded_Creeper.png',
     name: 'Exploded_Creeper',
     },
+    {
+    avatar: '../resource/avatar/1749393200-woaibailuya.jpg'
+    name: 'woaibailuya'
+    desc: '挖残骸专业户<br>另外还是个狐娘厨<br>缺残骸可以找我买'
+    links: [
+        { icon: 'bilibili', link:'https://space.bilibili.com/632469300' }
+    ]
+    },
 ];
 const Lost = []
 </script>
