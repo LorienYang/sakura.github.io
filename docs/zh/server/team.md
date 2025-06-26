@@ -34,11 +34,11 @@ const coreMembers = [
     ];
 const coreMembers2 = [
     {
-    avatar:'https://avatars.githubusercontent.com/u/80152431?v=4',
+    avatar:'https://avatars.githubusercontent.com/u/80152431',
     name: 'SakuraGChiru',
     desc: '网站技术',
     links: [
-        { icon: 'github', link: 'https://github.com/star-moon-night' },
+        { icon: 'github', link: 'https://github.com/lorienyang' },
         { icon: 'vitepress', link: 'https://sakuraonline.cn' },
         { icon: 'bilibili', link: 'https://space.bilibili.com/473089208' },
     ]
@@ -92,9 +92,9 @@ const teamMembers = [
     name: 'Exploded_Creeper',
     },
     {
-    avatar: '../resource/avatar/1749393200-woaibailuya.jpg'
-    name: 'woaibailuya'
-    desc: '挖残骸专业户<br>另外还是个狐娘厨<br>缺残骸可以找我买'
+    avatar: '../resource/avatar/1749393200-woaibailuya.jpg',
+    name: 'woaibailuya',
+    desc: '挖残骸专业户，缺残骸可以找我买<br>另外还是个狐娘厨',
     links: [
         { icon: 'bilibili', link:'https://space.bilibili.com/632469300' }
     ]
