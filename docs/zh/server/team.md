@@ -15,11 +15,12 @@ const coreMembers = [
     avatar:'../resource/avatar/1749393192-Kimimustbe29.png',
     name: 'Kimimustbe29',
     title: '会长' ,
-    desc: '常年不在线的杂鱼会长……<br>欢迎来我的个人网站看看<br>↓' ,
+    desc: '常年不在线的杂鱼会长……<br>欢迎来我的个人网站看看<br>第一个，别看错了' ,
     links: [
-        { icon: 'github', link: 'https://github.com/Kimimaybe29' },
         { icon: 'wordpress', link: 'https://kimimaybe29.top'},
+        { icon: 'github', link: 'https://github.com/Kimimaybe29' },
         { icon: 'bilibili', link: 'https://space.bilibili.com/504333259' },
+        { icon: 'twitter', link: 'https://twitter.com/Kimimaybe29' },
     ]
     },
     {
@@ -67,7 +68,7 @@ const teamMembers = [
     name: 'Lemeng01',   
     desc: '上班族偶尔在线' ,
     links: [
-        { icon: 'bilibili', link: '[https://space.bilibili.com/244858902' },
+        { icon: 'bilibili', link: 'https://space.bilibili.com/244858902' },
     ]
     },
     {
@@ -76,7 +77,12 @@ const teamMembers = [
     },
     {
     avatar:'../resource/avatar/1749393191-flxhaleimuye.png',
-    name: 'flxhaleimuye',
+    name: 'flxhaleimuye',  
+    desc: '讨厌人类',
+    links: [
+        { icon: 'bilibili', link: 'https://space.bilibili.com/353896344' },
+        { icon: 'twitter', link: 'https://x.com/flxhaleimu1954' },
+    ]
     },
     {
     avatar:'../resource/avatar/1749393190-Doxina.png',

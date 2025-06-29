@@ -2,6 +2,7 @@
 author: SakuraGaChiru
 layout: doc
 outline: deep
+CopyRight: true
 ---
 
 # 拾色世界野史
@@ -17,4 +18,3 @@ import { useData } from 'vitepress';
 const { frontmatter } = useData()
 </script>
 <AuthorInfo :name="frontmatter.author" />
-<CopyRight />

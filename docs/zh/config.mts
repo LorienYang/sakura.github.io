@@ -63,7 +63,7 @@ export default {
             }
         ],
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/Star-Moon-Night/sakura.github.io' }
+            { icon: 'github', link: 'https://github.com/LorienYang/sakura.github.io' }
         ],
         logo: '/logo-mini.svg',
         footer: {
@@ -79,7 +79,7 @@ export default {
         },
         notFound: {
             title: '页面未找到',
-            quote: '当你迷失方向的时候不妨回头看看。',
+            quote: '哪怕迷失方向，也要在迷途中前行。',
             linkLabel: '前往首页',
             linkText: '带我回首页'
         },
@@ -87,14 +87,14 @@ export default {
             text: '最后更新于'
         },
         editLink: {
-            pattern: 'https://github.com/Star-Moon-Night/sakura.github.io/edit/main/docs/:path',
+            pattern: 'https://github.com/LorienYang/sakura.github.io/edit/main/docs/:path',
             text: '在 GitHub 上编辑此页面'
         },
         returnToTopLabel: '回到顶部',
         sidebarMenuLabel: '菜单',
         darkModeSwitchLabel: '主题',
-        lightModeSwitchTitle: '切换到浅色模式',
-        darkModeSwitchTitle: '切换到深色模式',
+        lightModeSwitchTitle: '投掷闪光弹',
+        darkModeSwitchTitle: '天黑了，星闪烁，大海静悄悄',
         skipToContentLabel: '跳转到内容'
     }
 } satisfies { themeConfig: DefaultTheme.Config }

@@ -10,9 +10,7 @@ import 'uno.css'
 import 'virtual:uno.css'
 //import vue
 import RainbowAnimationSwitcher from "./components/RainbowAnimationSwitcher.vue";
-import CopyRight from "./components/CopyRight.vue";
-import NonCopyRight from "./components/NonCopyRight.vue";
-import AuthorInfo from './components/AuthorInfo.vue'
+import JoinTeam from "./components/JoinTeam.vue";
 //config
 export default {
   extends: DefaultTheme,
@@ -22,9 +20,7 @@ export default {
 
   enhanceApp({app , router }) {
     app.component('RainbowAnimationSwitcher', RainbowAnimationSwitcher)
-    app.component('CopyRight', CopyRight)
-    app.component('NonCopyRight', NonCopyRight)
-    app.component('AuthorInfo', AuthorInfo)
+    app.component('JoinTeam', JoinTeam)
     // 彩虹背景动画样式
     if (typeof window === 'undefined')
       return

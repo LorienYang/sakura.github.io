@@ -1,6 +1,7 @@
 ---
 layout: doc
 outline: [2,3]
+CopyRight: true
 ---
 
 
@@ -58,5 +59,3 @@ outline: [2,3]
 
 ## 饰演者名单
 **等待更新**
-
-<CopyRight />

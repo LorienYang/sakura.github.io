@@ -3,8 +3,9 @@ import { useData } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { nextTick, provide } from 'vue'
 import HomePage from './HomePage.vue'
+import CopyRight from "./CopyRight.vue";
 
-const { isDark } = useData()
+const { isDark,frontmatter } = useData()
 
 function enableTransitions() {
   return 'startViewTransition' in document
@@ -47,5 +48,8 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
     <template #home-features-after>
       <HomePage />
     </template>
+    <template #doc-footer-before>
+      <CopyRight v-if="frontmatter.CopyRight" />
+    </template>>
   </DefaultTheme.Layout>
 </template>

@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: 拾色世界:色彩的残党
       link: /server/CosPlay/docs/Color-Picking-Adventure-IF-Worldview
+    - theme: alt
+      text: 加入我们
+      link: /server/join
 features:
   - icon: 
       src: 'https://eggs.gold/wp-content/uploads/2024/12/cropped-%E7%94%BB%E6%9D%BF-1-7.png'

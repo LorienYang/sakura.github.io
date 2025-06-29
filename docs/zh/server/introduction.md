@@ -1,6 +1,7 @@
 ---
 layout: doc
 outline: [2,3]
+CopyRight: true
 ---
 # 樱花庄 组织介绍
 
@@ -18,6 +19,7 @@ outline: [2,3]
 + N0HAb1tor
 
 ### 最初成员总览
++ Kimimaybe29
 + Kimimustbe29
 + SakuraGaChiru
 + NU_LI_
@@ -31,6 +33,8 @@ outline: [2,3]
 + woaibailuya
 
 ### 后续增加的成员
-+ 编写中
-
-<CopyRight />
++ AiXingJueLuoyue
++ \_\_\_\_CHEESEE\_\_\_
++ Doxina
++ Leon0168
++ flxhaleimuye
