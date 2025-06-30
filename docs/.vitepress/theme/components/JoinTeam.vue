@@ -118,7 +118,7 @@ const submitForm = async () => {
     console.log('信息提交成功！', response.data);
 
     submissionStatus.value = 'success';
-    submissionMessage.value = '您的申请已成功提交！感谢您的关注。';
+    submissionMessage.value = '您的申请已成功提交！注意查收QQ邮箱。';
 
     // 提交成功后清空表单
     questions.forEach(question => {

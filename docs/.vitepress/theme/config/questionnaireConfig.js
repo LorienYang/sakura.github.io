@@ -18,6 +18,106 @@ export const questions = [
         pattern: '^\\d{5,11}$',
         description: '请填写您的QQ号，以便我们确认您已加入青金石蛋群。',
     },
+    {
+        id:'Q1',
+        type: 'radio',
+        label: '测试题目1',
+        options: [
+            { value: 1 ,text:'正确答案'},
+            { value: 0 ,text:'错误答案'}
+        ],
+        required: true,
+    },
+    {
+        id:'Q2',
+        type: 'radio',
+        label: '测试题目2',
+        options: [
+            { value: 1 ,text:'正确答案'},
+            { value: 0 ,text:'错误答案'}
+        ],
+        required: true,
+    },
+    {
+        id:'Q3',
+        type: 'radio',
+        label: '测试题目3',
+        options: [
+            { value: 1 ,text:'正确答案'},
+            { value: 0 ,text:'错误答案'}
+        ],
+        required: true,
+    },
+    {
+        id:'Q4',
+        type: 'radio',
+        label: '测试题目4',
+        options: [
+            { value: 1 ,text:'正确答案'},
+            { value: 0 ,text:'错误答案'}
+        ],
+        required: true,
+    },
+    {
+        id:'Q5',
+        type: 'radio',
+        label: '测试题目5',
+        options: [
+            { value: 1 ,text:'正确答案'},
+            { value: 0 ,text:'错误答案'}
+        ],
+        required: true,
+    },
+    {
+        id:'Q6',
+        type: 'radio',
+        label: '测试题目6',
+        options: [
+            { value: 1 ,text:'正确答案'},
+            { value: 0 ,text:'错误答案'}
+        ],
+        required: true,
+    },
+    {
+        id:'Q7',
+        type: 'radio',
+        label: '测试题目7',
+        options: [
+            { value: 1 ,text:'正确答案'},
+            { value: 0 ,text:'错误答案'}
+        ],
+        required: true,
+    },
+    {
+        id:'Q8',
+        type: 'radio',
+        label: '测试题目8',
+        options: [
+            { value: 1 ,text:'正确答案'},
+            { value: 0 ,text:'错误答案'}
+        ],
+        required: true,
+    },
+    {
+        id:'Q9',
+        type: 'radio',
+        label: '测试题目9',
+        options: [
+            { value: 1 ,text:'正确答案'},
+            { value: 0 ,text:'错误答案'}
+        ],
+        required: true,
+    },
+    {
+        id:'Q10',
+        type: 'radio',
+        label: '测试题目10',
+        options: [
+            { value: 1 ,text:'正确答案'},
+            { value: 0 ,text:'错误答案'}
+        ],
+        required: true,
+    },
     /*
     {
         id: 'age_group',
