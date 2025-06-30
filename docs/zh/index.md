@@ -7,7 +7,7 @@ hero:
   text: 欢迎来到樱花庄档案库
   tagline: 这里会记录樱花庄的大部分文件
   image:
-    src: ./logo.svg
+    src: ./Logo.svg
     all: Sakura
   actions:
     - theme: brand

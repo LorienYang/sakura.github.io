@@ -65,7 +65,7 @@ export default {
         socialLinks: [
             { icon: 'github', link: 'https://github.com/LorienYang/sakura.github.io' }
         ],
-        logo: '/logo-mini.svg',
+        logo: '/Logo.svg',
         footer: {
             message: 'Powered by <a href="https://github.com/vuejs/vitepress">VitePress</a>.',
             copyright: 'Copyright © 2025 樱花庄 All rights reserved.<br>V1.3.0'

@@ -20,7 +20,7 @@ export default defineConfig(async () => {
     description: '欢迎来到樱花庄档案库',
     cleanUrls: true,
     head: [
-      ['link', { rel: 'icon', href: '/logo-mini.svg' }],
+      ['link', { rel: 'icon', href: '/Logo.svg' }],
       // Google Analytics 4 (GA4) 代码
       ['script', { async: true, src: `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}` }],
       ['script', {}, `
