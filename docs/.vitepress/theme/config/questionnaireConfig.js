@@ -1,7 +1,7 @@
 // questionnaireConfig.js
 export const questions = [
     {
-        id: 'MinecraftID',
+        id: 'minecraftID',
         type: 'text', // 文本填空
         label: '您的MinecraftID',
         placeholder: '请输入您的MinecraftID',
@@ -9,7 +9,7 @@ export const questions = [
         description: '请填写您的MinecraftID，以便我们确认您不处于其他组织。',
     },
     {
-        id: 'QQ',
+        id: 'qqNumber',
         type: 'text',
         label: '您的QQ号',
         placeholder: '请输入您的QQ号',
@@ -18,6 +18,7 @@ export const questions = [
         pattern: '^\\d{5,11}$',
         description: '请填写您的QQ号，以便我们确认您已加入青金石蛋群。',
     },
+    /*
     {
         id: 'age_group',
         type: 'radio', // 单选
@@ -56,4 +57,5 @@ export const questions = [
         placeholder: '便于我们后续与您沟通',
         required: false,
     },
+     */
 ];

@@ -61,7 +61,7 @@
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
 
-//import { questions } from '../config/questionnaireConfig.js';
+import { questions } from '../config/questionnaireConfig.js';
 
 const formData = ref({});
 const formSubmitted = ref(false); // 用于内部校验触发
@@ -114,7 +114,7 @@ const submitForm = async () => {
   }
 
   try {
-    const response = await axios.post('http://localhost:3001/api/submit-join-request', formData.value); // 替换为你的后端 API 地址
+    const response = await axios.post('https://ssl.sakura.fun/api/submit-join-request', formData.value); // 替换为你的后端 API 地址
     console.log('信息提交成功！', response.data);
 
     submissionStatus.value = 'success';
