@@ -27,7 +27,8 @@ export default {
                 items: [
                     { text: '组织介绍', link: '/server/introduction' },
                     { text: '组织政策', link: '/server/rule' },
-                    { text: '组织成员', link: '/server/team' }
+                    { text: '组织成员', link: '/server/team' },
+                    { text: '加入我们', link: '/server/join' }
                 ]
             },
             {
