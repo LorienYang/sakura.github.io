@@ -21,7 +21,7 @@ const coreMembers = [
         { icon: 'twitter', link: 'https://twitter.com/Kimimaybe29' },
         { icon: 'wordpress', link: 'https://kimimaybe29.top'},
         { icon: 'bilibili', link: 'https://space.bilibili.com/504333259' },
-        { icon: 'discord', link: 'https://discordapp/com/users/1353211380085428289'},
+        { icon: 'discord', link: 'https://discordapp.com/users/1353211380085428289'},
     ]
     },
     {
