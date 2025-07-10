@@ -15,12 +15,13 @@ const coreMembers = [
     avatar:'../resource/avatar/1749393192-Kimimustbe29.png',
     name: 'Kimimustbe29',
     title: '会长' ,
-    desc: '常年不在线的杂鱼会长……<br>欢迎来我的个人网站看看<br>第一个，别看错了' ,
+    desc: '常年不在线的杂鱼会长……<br>欢迎来我的个人网站看看<br>↓' ,
     links: [
-        { icon: 'wordpress', link: 'https://kimimaybe29.top'},
         { icon: 'github', link: 'https://github.com/Kimimaybe29' },
-        { icon: 'bilibili', link: 'https://space.bilibili.com/504333259' },
         { icon: 'twitter', link: 'https://twitter.com/Kimimaybe29' },
+        { icon: 'wordpress', link: 'https://kimimaybe29.top'},
+        { icon: 'bilibili', link: 'https://space.bilibili.com/504333259' },
+        { icon: 'discord', link: 'https://discordapp/com/users/1353211380085428289'},
     ]
     },
     {
